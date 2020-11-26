@@ -1,0 +1,165 @@
+body {
+    background-color: #d6c140;
+    margin: 5%;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+/* annoying */
+#annoyingbtn {
+    
+    color: red;
+    padding: 16px;
+    font-size: 32px;
+    border: none;
+    border-radius: 10px;
+    cursor: zoom-in;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-transform: uppercase;
+    background-color: #d6c140;
+    letter-spacing: .05em;
+    text-shadow: 4px 4px 0px pink, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    outline: none;
+  }
+  
+  #dropdown-annoying {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #annoying-content {
+    display: none;
+    position: absolute;
+    background-color: #d6c140;;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+ #annoying-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+#annoying-content a:hover {background-color:#d6c140;}
+  
+#dropdown-annoying:hover #annoying-content {display: block;}
+  
+#dropdown-annoying:hover #annoying {background-color: #3e8e41;}
+
+/* urban */
+  #urbanbtn {
+    background-color: gray;
+    color: white;
+    padding: 16px;
+    font-size: 32px;
+    border: none;
+    border-radius: 10px;
+    cursor: zoom-in;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-transform: uppercase;
+    background-color: #d6c140;
+    letter-spacing: .05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    outline: none;
+  }
+  
+  #dropdown-urban {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #urban-content {
+    display: none;
+    position: absolute;
+    background-color: #d6c140;;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+ #urban-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+ #urban-content a:hover {background-color:#d6c140;}
+  
+  #dropdown-urban:hover #urban-content {display: block;}
+  
+  #dropdown-urban:hover #urban {background-color: #3e8e41;}
+
+  /* underwater */
+  #underwaterbtn {
+    
+    padding: 16px;
+    font-size: 32px;
+    border: none;
+    border-radius: 10px;
+    cursor: zoom-in;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-transform: uppercase;
+    color: blue;
+    background-color: #d6c140;
+    letter-spacing: .05em;
+    text-shadow: 4px 4px 0px lightskyblue, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    outline: none;
+  }
+  
+  #dropdown-underwater {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #underwater-content {
+    display: none;
+    position: absolute;
+    background-color:#d6c140;;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+ #underwater-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+ #underwater-content a:hover {background-color:#d6c140;}
+  
+  #dropdown-underwater:hover #underwater-content {display: block;}
+  
+  #dropdown-underwater:hover #underwater {background-color: #3e8e41;}
+
+  #buttons {
+      text-align: center;
+      text-align-last: justify;
+  }
+
+  #title {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 92px;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  #title {
+    color: #d364fb;
+    background-color: #d6c140;
+    letter-spacing: .05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+   }
+
+  #recycling {
+      text-align: center;
+      margin: 20px;
+      padding: 20px;
+      align-items: center;
+      justify-content: center;
+  }
