@@ -3,7 +3,7 @@
 let playing;
 
 //sound library
-let audio1 = new Audio ("sounds/Gravitacijaedit.wav");
+// let audio1 = new Audio ("sounds/Gravitacijaedit.wav");
 let audio2 = new Audio ("sounds/scratch.mp3");
 let audio3 = new Audio ("sounds/snoring.mp3");
 let audio4 = new Audio ("sounds/chewing.mp3");
@@ -20,15 +20,15 @@ let audio13 = new Audio ("sounds/airgun.mp3");
 window.addEventListener("load", () => {
 
 
-    document.getElementById("annoyingbtn").addEventListener("click", () => {
-        playing = !playing;
+    // document.getElementById("annoyingbtn").addEventListener("click", () => {
+    //     playing = !playing;
 
-        if (playing) {
-            audio1.play();
-          } else {
-            audio1.pause();
-          }
-    });
+    //     if (playing) {
+    //         audio1.play();
+    //       } else {
+    //         audio1.pause();
+    //       }
+    // });
 
     document.getElementById("scratching").addEventListener("click", () => {
         playing = !playing;
