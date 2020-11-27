@@ -1,6 +1,6 @@
 body {
     background-color: #d6c140;
-    margin: 5%;
+    margin: 1%;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
 
@@ -162,4 +162,55 @@ body {
       padding: 20px;
       align-items: center;
       justify-content: center;
+  }
+
+  #controls {
+    text-align: center;
+    align-items: center;
+  }
+
+  #recordButton {
+    
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-transform: uppercase;
+    background-color: #d6c140;
+    letter-spacing: .02em;
+    outline: none;
+  }
+
+  #pauseButton {
+    
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-transform: uppercase;
+    background-color: #d6c140;
+    letter-spacing: .02em;
+    outline: none;
+  }
+
+
+  #stopButton {
+    
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-transform: uppercase;
+    background-color: #d6c140;
+    letter-spacing: .02em;
+    outline: none;
   }
