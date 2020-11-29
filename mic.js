@@ -11,7 +11,7 @@ function draw() {
     background(214,193,64);
     var vol = mic.getLevel();
 
-    fill(211,100,251);
+    fill(72,8,155);
     noStroke()
     ellipse(windowWidth/2,100,windowWidth-250,vol*2000);
 }

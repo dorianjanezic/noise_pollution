@@ -1,13 +1,13 @@
 body {
     background-color: #d6c140;
-    margin: 1%;
+    margin: 0.5%;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
 
 /* annoying */
 #annoyingbtn {
     
-    color: red;
+    color:beige;
     padding: 16px;
     font-size: 32px;
     border: none;
@@ -17,7 +17,7 @@ body {
     text-transform: uppercase;
     background-color: #d6c140;
     letter-spacing: .05em;
-    text-shadow: 4px 4px 0px pink, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    text-shadow: 4px 4px 0px beige, 7px 7px 0px rgba(0, 0, 0, 0.2);
     outline: none;
   }
   
@@ -51,8 +51,7 @@ body {
 
 /* urban */
   #urbanbtn {
-    background-color: gray;
-    color: white;
+    color: beige;
     padding: 16px;
     font-size: 32px;
     border: none;
@@ -62,7 +61,7 @@ body {
     text-transform: uppercase;
     background-color: #d6c140;
     letter-spacing: .05em;
-    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    text-shadow: 4px 4px 0px white, 7px 7px 0px rgba(0, 0, 0, 0.2);
     outline: none;
   }
   
@@ -103,10 +102,10 @@ body {
     cursor: zoom-in;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     text-transform: uppercase;
-    color: blue;
+    color: beige;
     background-color: #d6c140;
     letter-spacing: .05em;
-    text-shadow: 4px 4px 0px lightskyblue, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    text-shadow: 4px 4px 0px beige, 7px 7px 0px rgba(0, 0, 0, 0.2);
     outline: none;
   }
   
@@ -144,16 +143,16 @@ body {
 
   #title {
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    font-size: 92px;
+    font-size: 80px;
     padding: 40px 20px;
     text-align: center;
   }
 
   #title {
-    color: #d364fb;
+    color:indigo;
     background-color: #d6c140;
     letter-spacing: .05em;
-    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    text-shadow: 7px 7px 0px black, 10px 10px 0px rgba(0, 0, 0, 0.2);
    }
 
   #recycling {
@@ -167,50 +166,169 @@ body {
   #controls {
     text-align: center;
     align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 2rem;
+    max-width: 28em;
+    
+
   }
 
   #recordButton {
+
     
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    flex-grow: 1;
+
+    background: #6613d3;
+    margin-left: 2px;
+    box-shadow: inset 0 -0.15rem 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
     text-transform: uppercase;
-    background-color: #d6c140;
-    letter-spacing: .02em;
+    border: none;
+    border-radius: 5px;
     outline: none;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 16px;
+  
   }
 
   #pauseButton {
     
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
+    
+
+
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    flex-grow: 1;
+
+    background: #6613d3;
+    margin-left: 2px;
+    box-shadow: inset 0 -0.15rem 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
     text-transform: uppercase;
-    background-color: #d6c140;
-    letter-spacing: .02em;
+    border: none;
+    border-radius: 5px;
     outline: none;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 16px;
+  
   }
 
 
   #stopButton {
     
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
+    
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    flex-grow: 1;
+
+    background: #6613d3;
+    margin-left: 2px;
+    box-shadow: inset 0 -0.15rem 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
     text-transform: uppercase;
-    background-color: #d6c140;
-    letter-spacing: .02em;
+    border: none;
+    border-radius: 5px;
     outline: none;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 16px;
+  
   }
+
+
+
+
+  #formats {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #recordings {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+
+  
+  #recordButton:hover {
+    outline: none;
+    background:#48089b;
+    
+  }
+  
+  #recordButton:focus {
+    outline: none;
+    background:#48089b;
+    
+  }
+  #pauseButton:hover {
+    outline: none;
+    background: #48089b;
+    
+  }
+  
+  #pauseButton:focus {
+    outline: none;
+    background: #48089b;
+    
+  }
+
+
+  #stopButton:focus {
+    outline: none;
+    background: #48089b;
+    
+  }
+
+  #stopButton:hover {
+    outline: none;
+    background:#48089b;
+    
+  }
+  
+  #recordButton:active {
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  #pauseButton:active {
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.2);
+    
+  }
+
+  #stopButton:active {
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  #stopButton:disabled {
+    pointer-events: none;
+    background: darkgray;
+  }
+ 
+  #pauseButton:disabled {
+    pointer-events: none;
+    background: darkgray;
+  }
+
+  #recordButton:disabled {
+    pointer-events: none;
+    background: darkgray;
+  }
+
+  

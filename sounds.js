@@ -15,8 +15,8 @@ var audioContext //audio context to help us record
 
 
 function startRecording() {
-	console.log("recordButton clicked");
-
+  console.log("recordButton clicked");
+  
 	/*
 		Simple constraints object, for more advanced audio features see
 		https://addpipe.com/blog/audio-constraints-getusermedia/
@@ -162,7 +162,7 @@ function createDownloadLink(blob) {
 }
 
 //sound library
-// let audio1 = new Audio ("sounds/Gravitacijaedit.wav");
+let audio1 = new Audio ("sounds/Gravitacijaedit.wav");
 var audio2 = new Audio ("sounds/scratch.mp3");
 var audio3 = new Audio ("sounds/snoring.mp3");
 var audio4 = new Audio ("sounds/chewing.mp3");
@@ -188,15 +188,16 @@ stopButton.addEventListener("click", stopRecording);
 pauseButton.addEventListener("click", pauseRecording);
 
 
-    // document.getElementById("annoyingbtn").addEventListener("click", () => {
-    //     playing = !playing;
 
-    //     if (playing) {
-    //         audio1.play();
-    //       } else {
-    //         audio1.pause();
-    //       }
-    // });
+    document.getElementById("annoyingbtn").addEventListener("click", () => {
+        playing = !playing;
+
+        if (playing) {
+            audio1.play();
+          } else {
+            audio1.pause();
+          }
+    });
 
     document.getElementById("scratching").addEventListener("click", () => {
         playing = !playing;
