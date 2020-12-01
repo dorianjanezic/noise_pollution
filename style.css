@@ -164,7 +164,7 @@ body {
       padding: 20px;
       align-items: center;
       justify-content: center;
-      transform: translateY(500px);
+      transform: translateY(300px);
   }
 
   #controls {
