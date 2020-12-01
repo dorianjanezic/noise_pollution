@@ -146,7 +146,7 @@ body {
 
   #title {
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    font-size: 80px;
+    font-size: 70px;
     padding: 40px 20px;
     text-align: center;
   }
@@ -348,6 +348,14 @@ body {
   }
 
   #submitbtn {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    background: #6613d3;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  #intro {
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     background: #6613d3;
     border: none;

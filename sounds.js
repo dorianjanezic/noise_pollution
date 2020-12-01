@@ -178,6 +178,8 @@ var audio12 = new Audio ("sounds/airplane.mp3");
 var audio13 = new Audio ("sounds/airgun.mp3");
 var audio14 = new Audio ("sounds/luk-02.wav");
 var audio15 = new Audio ("sounds/6.mp3");
+var audio16 = new Audio ("sounds/intro.mp3");
+
 
 window.addEventListener("load", () => {
 
@@ -218,6 +220,16 @@ pauseButton.addEventListener("click", pauseRecording);
             audio1.pause();
           }
     });
+
+    document.getElementById("intro").addEventListener("click", () => {
+      playing = !playing;
+
+      if (playing) {
+          audio16.play();
+        } else {
+          audio16.pause();
+        }
+  });
 
 
     document.getElementById("urbanbtn").addEventListener("click", () => {
