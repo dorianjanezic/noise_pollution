@@ -6,16 +6,17 @@ let playing;
 var gumStream; 						//stream from getUserMedia()
 var rec; 							//Recorder.js object
 var input; 							//MediaStreamAudioSourceNode we'll be recording
-
+var nameObject;
 // shim for AudioContext when it's not avb. 
 var AudioContext = window.AudioContext || window.webkitAudioContext;
 var audioContext //audio context to help us record
 
 
 
-
 function startRecording() {
   console.log("recordButton clicked");
+
+
   
 	/*
 		Simple constraints object, for more advanced audio features see
@@ -175,8 +176,27 @@ var audio10 = new Audio ("sounds/explosion.mp3");
 var audio11 = new Audio ("sounds/nails.mp3");
 var audio12 = new Audio ("sounds/airplane.mp3");
 var audio13 = new Audio ("sounds/airgun.mp3");
+var audio14 = new Audio ("sounds/luk-02.wav");
+var audio15 = new Audio ("sounds/6.mp3");
 
 window.addEventListener("load", () => {
+
+
+
+
+
+var submitbtn = document.getElementById("submitbtn");
+submitbtn.addEventListener("click", function () {
+  console.log("submit");
+
+  let msg = document.getElementById("noiser").value;
+  let msgObject = {"msg": msg}
+  console.log(msgObject);
+})
+
+
+
+
 
 var recordButton = document.getElementById("recordButton");
 var stopButton = document.getElementById("stopButton");
@@ -199,6 +219,27 @@ pauseButton.addEventListener("click", pauseRecording);
           }
     });
 
+
+    document.getElementById("urbanbtn").addEventListener("click", () => {
+      playing = !playing;
+
+      if (playing) {
+          audio14.play();
+        } else {
+          audio14.pause();
+        }
+  });
+
+
+  document.getElementById("underwaterbtn").addEventListener("click", () => {
+    playing = !playing;
+
+    if (playing) {
+        audio15.play();
+      } else {
+        audio15.pause();
+      }
+});
     document.getElementById("scratching").addEventListener("click", () => {
         playing = !playing;
 

@@ -3,7 +3,7 @@ var mic;
 
 function touchStarted() { getAudioContext().resume(); };
 function setup() {
-    createCanvas(windowWidth,200);
+    createCanvas(windowWidth,400);
     mic = new p5.AudioIn();
     mic.start();
 }
